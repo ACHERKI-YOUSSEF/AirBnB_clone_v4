@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # sets up the web servers for the deployment of web_static
+# creates a test HTML file, updates the Nginx
+# starts the Nginx
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
